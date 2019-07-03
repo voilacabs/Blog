@@ -33,7 +33,7 @@ plugins:
 paginate: 6
 paginate_path: /page:num
 
-main-url: "http://beta.voilacabs.com" 
+main-url: "https://beta.voilacabs.com" 
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
