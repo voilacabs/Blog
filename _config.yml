@@ -33,7 +33,10 @@ plugins:
 paginate: 6
 paginate_path: /page:num
 
-main-url: "https://beta.voilacabs.com" 
+#main-url: "https://beta.voilacabs.com" 
+main-url: "http://127.0.0.1:4000" 
+blog: "http://127.0.0.1:4001" 
+auth-desc: "Having more than 14 years of experience in software and mobile applications, I decided to pursue my dream of being an Entrepreneur."
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

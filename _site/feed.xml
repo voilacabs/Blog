@@ -1,13 +1,63 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2019-07-03T17:43:15+05:30</updated><id>/feed.xml</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Welcome to Jekyll Test 1.0!</title><link href="/testing" rel="alternate" type="text/html" title="Welcome to Jekyll Test 1.0!" /><published>2019-06-23T12:57:34+05:30</published><updated>2019-06-23T12:57:34+05:30</updated><id>/testing</id><content type="html" xml:base="/testing"></content><author><name>Admin Main</name></author><summary type="html"></summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="/welcome-to-jekyll" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2019-06-22T12:57:34+05:30</published><updated>2019-06-22T12:57:34+05:30</updated><id>/welcome-to-jekyll</id><content type="html" xml:base="/welcome-to-jekyll">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://localhost:4001/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4001/" rel="alternate" type="text/html" /><updated>2019-07-26T20:55:42+05:30</updated><id>http://localhost:4001/feed.xml</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Voila Cabs Bootstrapping</title><link href="http://localhost:4001/voila-cabs-bootstrapping" rel="alternate" type="text/html" title="Voila Cabs Bootstrapping" /><published>2019-07-15T03:05:34+05:30</published><updated>2019-07-15T03:05:34+05:30</updated><id>http://localhost:4001/voila-cabs-bootstrapping</id><content type="html" xml:base="http://localhost:4001/voila-cabs-bootstrapping">&lt;blockquote&gt;
+  &lt;p&gt;A Winning Formulae of ROI for Taxi Aggregators.&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Challenges for Taxi companies / Aggregators&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+&lt;p&gt;With dozen’s of cloud instances running with Terabytes of bandwidth consumed, large Google API’s consumption’s,  Messages costing, Coupons and Promo’s Offers, Marketing Cost’s, on and above managing team’s, infra and many more leading up huge recurring cost’s  and with a very nominal margin’s from driver’s make profitability less and not a sustainable model.&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;strong&gt;What evolved Voila SaaS ?&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name>Admin123</name></author><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry></feed>
+&lt;p&gt;Well, It all started in year 2016 with selling clone script’s on market place and eventually caught up with biggest taxi aggregators who purchased the script and many of them fail to sustain and eventually closed down due to huge over killing overhead’s, competing with dominating  players like OLA and  Uber and to meet the benchmark quality was always a challenge for any single taxi companies. In Mid 2016 many of our customer’s started complaining about the scalability and maintenance part of the app as older version was scripted on LAMP Stack, in 2017 we were able to address the scalability issue by tweaking the backend stack to MEAN under a new brand “Voila Cabs”  which added a performance boost to some extend, but new tech trends again added large overheads of maintenance and was not commercially sustainable business model for a start up taxi’s and to crunch the numbers we were drastically getting down from 50+  aggregators to 6 by end of 2017 as a startup taxi companies  cannot focus on both ( Sale &amp;amp; Technical ) vertical’s.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Voila! Idea!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;With a slam-dunk move we began to blend qualitative feedback from taxi companies and reached on common platform for all taxi aggregator’s and we call it as Voila SaaS, before the application we use today was born or written, there were a lot of problems. In  2018 Q2 with a fresh young  turk’s  who believe in a vision to revolutionise taxi dispatching moved in as part of team and with  a penchant of bringing innovation we have peruse development of SaaS backend from ground on a very scalable &amp;amp; famous “Micro Services Architure” and Distributed database’s .&lt;/p&gt;
+
+&lt;p&gt;Our first version of the app released in 14th Feb 2019 to QBR Cab’s, A biggest taxi aggregator in Kerala with about 1000+ existing fleet sizes only in Trivendrium to begin with and with one booking arriving and 20+ new user’s sign up every minute  and app performs Rock solid, till then we are constantly releasing new updates every 2 week’s with new features and fixes and it works.  In last 2 Quarters we were able to successuflly run bigger brands like Social Car’s (20+ Fleets ), Top Ride Cabs ( 900+ Fleets ), Krisp Cabs ( 1500+ Fleets ), Gacabbie ( 80+ Fleets )  &amp;amp; still counting…&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Voila SaaS -  Bridging the gaps Gap’s between Taxi Aggregators and Customer’s&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Our Mantra for Taxi Companies  “You Focus On #TaxiBusiness And We Will Take Care Of The Rest.”. We offer White labelled Rider Apps, Driver apps for both iOS &amp;amp; Android and with their branding along with attractive and appealing store graphics. We took the technical headache out from our partner’s, all they do is just focus getting more booking’s &amp;amp; driver’s and we make sure that system works 24/7 and with all data backed up &amp;amp; replicated at regular intervals .&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;How Taxi Taxi Aggregators Benefited from Voila SaaS ?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Software-as-a-Service is a worthy business option for aggregators as that keep them worry free. Aggregator are paying us only for number of driver’s using the system. There is no cap on number of rider’s or booking’s.We pay all recurring cost’s like google api, Map keys, Amazon services, hosting expenses and more important FREE bug fixes to our aggregator’s, this approach keeps them worry free from hidden expenses . Voila Cab’s is more focused on building ecosystem of aggregator and certainly get’s benefited for volume discount from our vendors like Google, Amazon, MapmyIndia, Tier.net, 2Factor.com and many more.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Benefits of using Voila SaaS vs traditional In-house Deployments  ?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;1)  Affordability:&lt;/p&gt;
+
+&lt;p&gt;Unlike traditional taxi script’s, SaaS is sold based on a pay per driver basis that includes, maintenance, upgrades, and a degree of customer support. SaaS subscription model usually operate on a monthly subscription basis  and because of this there are no huge upfront costs. The affordability is very good compared to many other traditional platforms such as PaaS and IaaS. The plans are good because they have a pay-as-you-go feature. Many taxi aggregator use SaaS because of affordability as well as the number of features that are offered in SaaS.&lt;/p&gt;
+
+&lt;p&gt;2)  Quick to Deploy:&lt;/p&gt;
+
+&lt;p&gt;Voila SaaS can be deployed in 24 hour with all kind of set up’s required for a taxi company to dispatch car’s in manual mode with 100% branded and themed to match their business style.If customer opt for Rider apps then it takes upto 48 hours to put the app on both the stores ( iOS / Android ) .&lt;/p&gt;
+
+&lt;p&gt;3) Zero Infrastructure setup Needed:&lt;/p&gt;
+
+&lt;p&gt;We take care of all hardware and software infrastructure, With a basic list of prerequisites if delivered on time then Apps can be deployed in 48 hours. Eliminating the need for installing and downloading patches. At any given time you can be rest assured that you will have access to the most recent update’s. On top of this Voila SaaS also offer’s on demand upgrades to customer’s with volumes and larger fleet size, in short we made things this easy for you so that you can concentrate on your work.&lt;/p&gt;
+
+&lt;p&gt;5) Guaranteed Service:&lt;/p&gt;
+
+&lt;p&gt;As happens with most taxi script’s, you are not given a guarantee on how well the software will work, and how well it will perform. But with SaaS you can be rest assured. On the SaaS platform you are given a guarantee of having a 99.9% of uptime. You can expect your IT infrastructure to be up and running almost 99% of the time. So there is no question of downtimes that arise due to hardware failure. Our dedicated server’s  make 99% uptime for your Mobile Apps and Dispatch system due to multiple deployment sites being present that is spanned across multiple data centres located around the globe.&lt;/p&gt;
+
+&lt;p&gt;6) Backups as well as data recovery all done for you:&lt;/p&gt;
+
+&lt;p&gt;We backed up data on RAIDS &amp;amp; Multiple Master Replication’s for database to make sure no data is lost. On top of this there are backups scripts running always to make sure that your data is backed up at regular interval’s.&lt;/p&gt;
+
+&lt;p&gt;7) Dispatch Anywhere:&lt;/p&gt;
+
+&lt;p&gt;All our Panels including Dispatcher, Booking Interface’s &amp;amp;  Admin panel’s are purely cloud based and hence give you 100% flexibility to keep remote team’s to dispatch your booking’s.&lt;/p&gt;
+
+&lt;p&gt;8) Security:&lt;/p&gt;
+
+&lt;p&gt;Voila SaaS  offers a greater degree of security for any organisations data as they are non accessible to other aggregators  depending on the permission set up. For many  aggregators we runs multiple instances of data centres which contacts the IT infrastructure to deliver the applications. In the event when one of the data centre’s goes down, the remaining others pick up and deliver the SaaS services and solutions. Also we are going with proven technologies and vendor’s.&lt;/p&gt;
+
+&lt;p&gt;9) Easily Scalable Infrastructure:&lt;/p&gt;
+
+&lt;p&gt;Our infrastructure and support systems are easily scalable and expandable. You can no limitation’s on any kind of usage. Bills are generated every month end and its purely pay as you go model.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;A win-win-win eco-system&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The end result is that the taxi aggregators gets rock-solid service from us at good price point and in-turn  can pass this benefits to customer and driver’s. Engineering funds was saved and made available for marketing and customer retention.  On and above getting the bigger advantages of volume’s discounts from vendor’s and hence keep even one bread and butter going :)&lt;/p&gt;</content><author><name>Rupen Makhecha</name></author><summary type="html">A Winning Formulae of ROI for Taxi Aggregators.</summary></entry></feed>
