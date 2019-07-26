@@ -34,7 +34,7 @@
 	<meta property="og:site_name" content="{{ page.title }}">
 
 	{% if page.thumbnail %}
-		<meta property="og:image" content="{{ site.url }}/{{ page.thumbnail }}">
+		<meta property="og:image" content="{{ site.main-url }}/{{ page.thumbnail }}">
 	{% endif %}
 	
 	<link rel="canonical" href="{{ site.url }}/{{ page.url | replace: '/','' }}" />
