@@ -1,4 +1,57 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2019-07-27T19:47:16+05:30</updated><id>/feed.xml</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Voila Cabs Bootstrapping</title><link href="/voila-cabs-bootstrapping" rel="alternate" type="text/html" title="Voila Cabs Bootstrapping" /><published>2019-07-15T03:05:34+05:30</published><updated>2019-07-15T03:05:34+05:30</updated><id>/voila-cabs-bootstrapping</id><content type="html" xml:base="/voila-cabs-bootstrapping">&lt;blockquote&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2019-07-27T20:44:52+05:30</updated><id>/feed.xml</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Technology and Achitecture behind Voila Cabs</title><link href="/voila-cabs-architure-and-technology" rel="alternate" type="text/html" title="Technology and Achitecture behind Voila Cabs" /><published>2019-07-27T08:24:34+05:30</published><updated>2019-07-27T08:24:34+05:30</updated><id>/voila-cabs-architure-and-technology</id><content type="html" xml:base="/voila-cabs-architure-and-technology">&lt;p&gt;well said by: John Maeda&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Simplicity is about subtracting the obvious and adding the meaningful.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;Voila Cabs&lt;/strong&gt; is a dispatch engine and it more or less works like eco-system for all taxi aggregator’s / companies.  With Min volumes of 100 to 1000+ taxi for each companies who’s driver’s frequently updates their location’s in realtime for right job getting dispatch to right driver all this is amassing several terabytes of traffic and is managed by small team without Amazon stack. We thought it would be great to give a sense of  our system’s, there is more in-depth descriptions of some of these component’s used and is a glimpse of how a startup with a small engineering team can scale app’s at  budget friendly price point’s.&lt;/p&gt;
+
+&lt;p&gt;Our core principles when choosing a system are:&lt;/p&gt;
+
+&lt;p&gt;Do not over complicate thing’s 
+Don’t re-invent the wheel
+Go with proven and solid technologies when you can&lt;/p&gt;
+
+&lt;p&gt;At VoilaCab’s, we are focused on delivering things faster — be it Dispatching Taxi’s, new enhancements ,bugs  or even an user’s app experience&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Our Old Tech Stack&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;We Started with  on Only PHP - using Code Ignitor Framework for first 15 Months,PHP resources comparatively far more expensive both in terms of CPU &amp;amp; memory utilisation than Node.js . For PHP we have to rely on 3rd party for implementation of queue’s and async. task etc. moreover the API response speed  we get in Node.js is tremendous.  Since last  2 years we have experimented lots of things with our primary focus being speed and scalability and finally settled up with  Node.js as core technology for  our application stack. We have used a combination of My-Sql and MongoDB database for our App’s.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;High availability Dedicated Server Set Up.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;When calculating amazon EC2  instances price’s or other cloud cloud server prices, it was working out very expensive and won’t fit for cost effective model. An alternative to this is multiple dedicated machines with large dedicated RAM’s &amp;amp; very high core processor’s located in different zone’s.  We have installed Database and Application installed on same Machine, We have High Availability Mysql server’s cluster in Multi Master Replication across multiple region’s along with database balancing done using HAProxy installed on both of them.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;OS / Hosting&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;We run Ubuntu Linux 18.04 on Dedicated Instance’s with 200+ GB RAM’s &amp;amp; 32 Core Processor’s with Node Instances running as Cluster’s. We prefer Dedicated instances over cloud instances due to cost effective benefits. We are with tier.net for our dedicated server’s and so far our experience is great with them.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Load Balancing&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Every request to our servers goes through load balancing machines; we used  Nginx  as load balancer and also Reverse Proxy to route secure request to Application API’s . We use Cloud Flare for DNS, which does instant DNS redirection for new client’s. We terminate our SSL check on loadbalancers for speed and further routing is done using Proxy Pass client’s.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Data storage&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Most of our Booking Data, Driver Data etc. lives in MY-SQL; Since our application and database server runs on same Extra-Large memory instances (with 2  replicas in a different zone.). Our Db instances run on master-replica setup using Streaming Replication, We use RAID arrays for snapshotting and to connect our application with database we have use HAProxy Server which load balance each DB request in round robin fashion.The asset’s like photo’s and static data  themselves go straight to Amazon S3, which currently stores several terabytes of data for us.&lt;/p&gt;
+
+&lt;p&gt;For our geo-search API we used MongoDB  as 2D Index pattern which search nearest driver’s and also we realtime update the same. There is internal database sync between  My-Sql and MongoDB for status updates as that’s achieved using Node.js.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Realtime Events &amp;amp; Push Notifications&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;When a booking request is send to nearest driver’s we dispatch the same using Realtime notification’s services. We have evaluated Rabbit MQ, Amazon SES &amp;amp; SNQ and finally settle ourselves with Firebase Realtime Notification, firebase has handled millions of notifications for us, and has been rock-solid.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Dispatcher &amp;amp; Web Booking Interfaces&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;When a booking is made it either dispatch manually or automatically depending on company preference’s or his choice of dispatch . Each booking arrived in a dispatch queue.  A Realtime dispatcher panel is designed using Angular (Type Script ) ,along with updated realtime notification’s  for him to dispatch job to right driver and is update asynchronously for better user experience. Dispatcher’s are designed to white labelled  on the fly using fancy coding by our creative programmer’s and it gives super cool experience to dispatcher.&lt;/p&gt;
+
+&lt;p&gt;Our cool booking interface is designed using Angular (Type Script ) , Our Angular scripts are hosted on firebase static hosting panel’s and since many months it perform’s flawless.&lt;/p&gt;
+
+&lt;p&gt;Mobile App’s 
+Our Mobile App’s are coded with pure Native and its optimised for great speed.&lt;/p&gt;
+
+&lt;p&gt;well said by: Daniel Bell&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Technology, like art, is a soaring exercise of the human imagination.&lt;/p&gt;
+&lt;/blockquote&gt;</content><author><name>Rupen Makhecha</name></author><summary type="html">well said by: John Maeda Simplicity is about subtracting the obvious and adding the meaningful.</summary></entry><entry><title type="html">Voila Cabs Bootstrapping</title><link href="/voila-cabs-bootstrapping" rel="alternate" type="text/html" title="Voila Cabs Bootstrapping" /><published>2019-07-15T03:05:34+05:30</published><updated>2019-07-15T03:05:34+05:30</updated><id>/voila-cabs-bootstrapping</id><content type="html" xml:base="/voila-cabs-bootstrapping">&lt;blockquote&gt;
   &lt;p&gt;A Winning Formulae of ROI for Taxi Aggregators.&lt;/p&gt;
 &lt;/blockquote&gt;
 
