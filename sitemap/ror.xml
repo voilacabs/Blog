@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:ror="http://rorweb.com/0.1/" >
+<channel>
+  <title>ROR Sitemap for https://blog.voilacabs.com/</title>
+  <link>https://blog.voilacabs.com/</link>
+
+<item>
+     <link>https://blog.voilacabs.com/</link>
+     <title>Blog</title>
+     <description>Blog</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>0</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://blog.voilacabs.com/voila-cabs-architure-and-technology</link>
+     <title>Technology and Achitecture powering Voila Cabs</title>
+     <description>Technology that brings taxis at your doorsteps.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://blog.voilacabs.com/voila-cabs-bootstrapping</link>
+     <title>Voila Cabs Bootstrapping</title>
+     <description>A Winning Formulae of ROI for Taxi Aggregators.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+</channel>
+</rss>
+  
